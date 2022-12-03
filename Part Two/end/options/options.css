@@ -1,0 +1,56 @@
+body {
+  background: hsla(238, 100%, 71%, 1) no-repeat;
+
+  background: linear-gradient(
+    90deg,
+    hsla(238, 100%, 71%, 1) 0%,
+    hsla(295, 100%, 84%, 1) 100%
+  ) no-repeat;
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(238, 100%, 71%, 1) 0%,
+    hsla(295, 100%, 84%, 1) 100%
+  ) no-repeat;
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(238, 100%, 71%, 1) 0%,
+    hsla(295, 100%, 84%, 1) 100%
+  ) no-repeat;
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#696EFF", endColorstr="#F8ACFF", GradientType=1 );
+}
+
+h1 {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 50px;
+  margin: 10px;
+  font-weight: normal;
+}
+
+h2 {
+  font-weight: normal;
+  color: whitesmoke;
+}
+
+#time-option {
+  outline: none;
+  border: none;
+  width: 300px;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+#save-btn {
+  display: block;
+  margin-top: 40px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  padding: 10px;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}

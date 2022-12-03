@@ -1,0 +1,86 @@
+body {
+  height: 400px;
+  width: 350px;
+  background: hsla(238, 100%, 71%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(238, 100%, 71%, 1) 0%,
+    hsla(295, 100%, 84%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(238, 100%, 71%, 1) 0%,
+    hsla(295, 100%, 84%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(238, 100%, 71%, 1) 0%,
+    hsla(295, 100%, 84%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#696EFF", endColorstr="#F8ACFF", GradientType=1 );
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  background-color: whitesmoke;
+  margin: -8px;
+  padding: 5px;
+}
+
+#time {
+  text-align: center;
+  font-size: 50px;
+  margin: 10px;
+  font-weight: normal;
+  color: whitesmoke;
+}
+
+#btn-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#btn-container > button {
+  color: black;
+  background-color: whitesmoke;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 8px;
+  font-weight: bold;
+  width: 100px;
+  cursor: pointer;
+}
+
+#task-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.task-input {
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  margin: 5px;
+  padding: 5px 10px 5px 10px;
+  width: 250px;
+}
+
+.task-delete {
+  outline: none;
+  border: none;
+  height: 25px;
+  width: 25px;
+  border-radius: 4px;
+  color: indianred;
+  cursor: pointer;
+  font-weight: 700;
+}
